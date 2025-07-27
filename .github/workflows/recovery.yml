@@ -3,10 +3,10 @@ name: RECOVERY
 on:
   workflow_dispatch:
     inputs:
-      RECOVERY_URL:
+      RECOVERY_URL: 'https://mega.nz/file/uTZjwYiZ#uSJvfAWc-EWNrKT2KzI35gzWSJrCKYyXeZJTSqRN9yc'
         description: 'RECOVERY URL'
         required: true
-        default: 'https://transfer.sh/(RECOMMENDED)'
+        default: 'https://mega.nz/file/uTZjwYiZ#uSJvfAWc-EWNrKT2KzI35gzWSJrCKYyXeZJTSqRN9yc'
 
 env:
   RECOVERY_URL: https://oshi.at/Rpjg
